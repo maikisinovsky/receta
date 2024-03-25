@@ -1,0 +1,208 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #540303;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div {
+  display: flex;
+  align-content: flex-start;
+
+}
+
+.hola {
+  height: 80px;
+  width: 37%;
+}
+
+.imagen {
+  width: 28px;
+  height: 28px;
+
+}
+
+#title:hover {
+  color: #4e0404;
+}
+
+#ulAbrir {
+  display: none;
+  z-index: 1;
+
+}
+
+input {
+  display: none;
+}
+
+input:checked~#ulAbrir {
+  display: block;
+}
+
+
+
+.ul {
+  width: 300px;
+  height: auto;
+  color: #ffffff
+}
+
+#div {
+  background-color: #7b0a0a;
+  width: 600xp;
+  height: 600xp
+}
+
+#introduction {
+  color: #ffffff
+}
+
+ul {
+  list-style-type: square;
+}
+
+img {
+  width: 2000 px
+}
+
+#cookies:hover {
+  color: #930b0b;
+}
+
+#tittle {
+  cursor: pointer;
+}
+
+#img {
+  display: none;
+  width: 150%;
+  height: auto;
+}
+
+
+
+body {
+  font-family: Arial;
+}
+
+#nav-ul {
+  display: none;
+}
+
+input:checked~ul {
+  display: block;
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0, 5px solid #54030b;
+  border-radius: 5px;
+  width: 1px;
+  height: 1px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+
+label:hover {
+  background: #770909;
+}
+
+
+input:checked~label {
+  background: #450707;
+}
+
+
+
+
+#nav-li:hover {
+  filter: brightness(110%);
+}
+
+
+
+#nav-ul {
+  margin-top: 0;
+  padding: 0;
+  width: 200px;
+
+}
+
+.nav-li {
+  display: block;
+  background: #6c0404;
+  margin: 0;
+  padding: 10px;
+  list-style: square;
+  border-bottom: 1px solid #54030b;
+}
+
+.ul {
+  display: block;
+
+  margin: 0;
+  padding: 10px;
+  list-style: square;
+  border-bottom: 1px solid #54030b;
+}
+
+
+#nav-li:hover {
+  filter: brightness(110%);
+}
+
+input:checked~ul {
+  display: block;
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0, 5px solid #54030b;
+  border-radius: 5px;
+  width: 27px;
+  height: 27px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+
+label:hover {
+  background: #770909;
+}
+
+
+input:checked~label {
+  background: #450707;
+}
+
+.ul {
+  margin-top: 0;
+  padding: 0;
+  width: 200px;
+
+}
+
+
+
+
+
+li:hover {
+  filter: brightness(110%);
+}
